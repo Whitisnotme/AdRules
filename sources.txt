@@ -1,0 +1,8 @@
+# AdRules List
+https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
+
+# AWAvenue-Ads-Rule
+https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
+
+# Hagezi Blocklists Pro
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt
