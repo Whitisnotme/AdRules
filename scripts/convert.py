@@ -10,9 +10,7 @@ OUTPUT_DIR = "dist"
 def clean_domain(domain):
     """清理域名：移除不支持的通配符前缀，确保格式合法"""
     if not domain: return None
-    # 移除开头的 * 和 . (例如: *-ad-sign.byteimg.com -> ad-sign.byteimg.com)
     domain = re.sub(r'^[\*\.-]+', '', domain)
-    # 确保只保留合法的域名字符
     domain = domain.strip().lower()
     if '.' in domain and not domain.endswith('.'):
         return domain
@@ -20,7 +18,6 @@ def clean_domain(domain):
 
 def extract_domain(line):
     """提取域名：解析 || 语法和纯域名"""
-    # 匹配 || 之后到 ^ 或 / 或 结尾之间的内容
     match = re.search(r'\|\|([^/^$^\s]+)', line)
     if match:
         return clean_domain(match.group(1))
@@ -31,7 +28,7 @@ def extract_domain(line):
     return None
 
 def process_rules():
-    dns_domains = set()  # 使用 set 自动实现简单去重
+    dns_domains = set()
     regex_rules = set()
     status_report = []
     
@@ -66,7 +63,6 @@ def process_rules():
         except Exception as e:
             status_report.append(f"失败: {url} (错误: {e})")
             
-    # 仅执行简单排序，不执行缩写合并
     final_domains = sorted(list(dns_domains))
     final_regexes = sorted(list(regex_rules))
             
@@ -84,13 +80,13 @@ def generate_output(domains, regexes, status_report):
         f"! ------------------------------------------------------------"
     ]
     
-    # 1. 导出 adblock.txt (已修复通配符报错)
+    # 1. 导出 adblock.txt
     with open(f"{OUTPUT_DIR}/adblock.txt", "w", encoding='utf-8') as f:
         f.write("\n".join(header) + "\n\n")
         f.write("\n".join([f"||{d}^" for d in domains]))
         
-    # 2. 导出 domain-suffix.list (专用格式)
-    with open(f"{OUTPUT_DIR}/DOMAIN-SUFFIX.list", "w", encoding='utf-8') as f:
+    # 2. 导出 domain-suffix.list
+    with open(f"{OUTPUT_DIR}/domain-suffix.list", "w", encoding='utf-8') as f:
         f.write(f"# Update: {now}\n")
         f.write(f"# Total: {len(domains)}\n\n")
         f.write("\n".join([f"domain-suffix,{d}" for d in domains]))
