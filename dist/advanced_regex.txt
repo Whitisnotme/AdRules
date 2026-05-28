@@ -1,7 +1,7 @@
 ! Title: AdRules List
 ! Homepage: https://github.com/Whitisnotme/AdRules
-! Update: 2026-05-28 19:31:43(GMT+8)
-! Total count: 306512
+! Update: 2026-05-29 02:31:07(GMT+8)
+! Total count: 298559
 ! ------------------------------------------------------------
 
 /^.+stat\.kugou\.com/
