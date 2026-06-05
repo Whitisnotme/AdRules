@@ -1,6 +1,6 @@
-更新时间: 2026-06-05 10:43:43
-总计条目: 307075
+更新时间: 2026-06-05 19:20:22
+总计条目: 181001
 ------------------------------
-成功: https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt (180366 条)
+成功: https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt (180559 条)
 成功: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt (905 条)
-成功: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt (200400 条)
+失败: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt (错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt)
