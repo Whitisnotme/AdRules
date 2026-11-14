@@ -1,7 +1,7 @@
 # Title: AdRules List
 # Homepage: https://github.com/Whitisnotme/AdRules
-# Update: 2026-11-14 22:40:32(GMT+8)
-# Total count: 360927
+# Update: 2026-11-15 04:16:15(GMT+8)
+# Total count: 360933
 # ------------------------------------------------------------
 
 domain-suffix,*-ad-sign.byteimg.com
@@ -71228,6 +71228,7 @@ domain-suffix,client-telemetry.roblox.com
 domain-suffix,client-telemetry.tutu.ru
 domain-suffix,client-telemetry.us-east-1.amazonaws.com
 domain-suffix,client-tracking.omiapp.me
+domain-suffix,client-upload.cn-shanghai.log.aliyuncs.com
 domain-suffix,client.botchk.net
 domain-suffix,client.c6gj-static.net
 domain-suffix,client.h-vpn.org
@@ -100289,6 +100290,7 @@ domain-suffix,dtzrrz.green-japan.com
 domain-suffix,dtzru.colorescience.com
 domain-suffix,dtzvavrnbzemd.space
 domain-suffix,dtzwxa.com
+domain-suffix,du-app.cn-hangzhou.log.aliyuncs.com
 domain-suffix,du.dinudlejning.dk
 domain-suffix,du0.jp
 domain-suffix,du002iv2rxh4h.cloudfront.net
@@ -107899,6 +107901,7 @@ domain-suffix,errandsracket.com
 domain-suffix,erreateamsport.nl
 domain-suffix,erriteskither.qpon
 domain-suffix,errlak.aromame.co.kr
+domain-suffix,errnewlog.umeng.com
 domain-suffix,errome.com
 domain-suffix,erroneousobligedcooler.com
 domain-suffix,error-analytics-production.shopifysvc.com
@@ -166494,6 +166497,7 @@ domain-suffix,lezpress.fr
 domain-suffix,lezti.de
 domain-suffix,leztr.giantpartners.com
 domain-suffix,lezumail.com
+domain-suffix,lf-event-manager.oceanengine.com
 domain-suffix,lf-static.tiktokpangle-cdn-us.com
 domain-suffix,lf.alliesservite.shop
 domain-suffix,lf.lelefeminine.com
@@ -267277,6 +267281,8 @@ domain-suffix,shiftotter.com
 domain-suffix,shifu.hotstarext.com
 domain-suffix,shigl.top
 domain-suffix,shihe.cn
+domain-suffix,shihuo-new.log.shihuocdn.cn
+domain-suffix,shihuo.log.shihuocdn.cn
 domain-suffix,shiiva.fr
 domain-suffix,shijiejinrong.com
 domain-suffix,shijixinrui.cn

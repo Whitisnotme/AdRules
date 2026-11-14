@@ -1,7 +1,7 @@
 ! Title: AdRules List
 ! Homepage: https://github.com/Whitisnotme/AdRules
-! Update: 2026-11-14 22:40:32(GMT+8)
-! Total count: 360927
+! Update: 2026-11-15 04:16:15(GMT+8)
+! Total count: 360933
 ! ------------------------------------------------------------
 
 ||*-ad-sign.byteimg.com^
@@ -71228,6 +71228,7 @@
 ||client-telemetry.tutu.ru^
 ||client-telemetry.us-east-1.amazonaws.com^
 ||client-tracking.omiapp.me^
+||client-upload.cn-shanghai.log.aliyuncs.com^
 ||client.botchk.net^
 ||client.c6gj-static.net^
 ||client.h-vpn.org^
@@ -100289,6 +100290,7 @@
 ||dtzru.colorescience.com^
 ||dtzvavrnbzemd.space^
 ||dtzwxa.com^
+||du-app.cn-hangzhou.log.aliyuncs.com^
 ||du.dinudlejning.dk^
 ||du0.jp^
 ||du002iv2rxh4h.cloudfront.net^
@@ -107899,6 +107901,7 @@
 ||erreateamsport.nl^
 ||erriteskither.qpon^
 ||errlak.aromame.co.kr^
+||errnewlog.umeng.com^
 ||errome.com^
 ||erroneousobligedcooler.com^
 ||error-analytics-production.shopifysvc.com^
@@ -166494,6 +166497,7 @@
 ||lezti.de^
 ||leztr.giantpartners.com^
 ||lezumail.com^
+||lf-event-manager.oceanengine.com^
 ||lf-static.tiktokpangle-cdn-us.com^
 ||lf.alliesservite.shop^
 ||lf.lelefeminine.com^
@@ -267277,6 +267281,8 @@
 ||shifu.hotstarext.com^
 ||shigl.top^
 ||shihe.cn^
+||shihuo-new.log.shihuocdn.cn^
+||shihuo.log.shihuocdn.cn^
 ||shiiva.fr^
 ||shijiejinrong.com^
 ||shijixinrui.cn^
